@@ -27,7 +27,7 @@ export default function Signup() {
     }
     const SubmitHandler = (e) => {
         e.preventDefault();
-        Axios.post('http://localhost:4000/api/profile/register', state)
+        Axios.post('/api/profile/register', state)
             .then((res) => {
                 history.push('/signin')
             })
