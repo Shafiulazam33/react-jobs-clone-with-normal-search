@@ -17,7 +17,7 @@ export default function Signin() {
     }
     const SubmitHandler = (e) => {
         e.preventDefault();
-        Axios.post('http://localhost:4000/api/profile/login', state)
+        Axios.post('/api/profile/login', state)
             .then((res) => {
                 let token = res.data.token
                 localStorage.setItem('auth_token', token)
