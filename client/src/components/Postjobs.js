@@ -25,7 +25,7 @@ export default function Postjobs() {
             apply_link: "", tags: "", description: "", discard: false
         });
     useEffect(() => {
-        Axios.post('http://localhost:4000/api/job/companies')
+        Axios.post('/api/job/companies')
             .then((res) => {
                 let options = []
                 if (res.data.companies.length > 0) {
@@ -58,10 +58,10 @@ export default function Postjobs() {
         event.preventDefault();
         const RouteOptions = () => {
             if (!state.discard) {
-                return ' http://localhost:4000/api/job/post-job'
+                return '/api/job/post-job'
             }
             else {
-                return ' http://localhost:4000/api/job/post-company-job'
+                return '/api/job/post-company-job'
             }
         }
         Axios.post(RouteOptions(), state)
