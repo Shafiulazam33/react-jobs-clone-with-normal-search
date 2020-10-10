@@ -1,0 +1,272 @@
+.post-job-form {
+        width: 1127px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        padding:15px 0;
+    }
+.title{
+        font-weight: 700;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .post-job-form input {
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #d6d2d2;
+        padding: 12px 12px;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .company,
+    .job {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px 15px 10px;
+        border: 1px solid #d6d2d2;
+        border-radius: 5px;
+    }
+    
+    .horizontal-line{
+        height: 1px;
+        width: 99%;
+        background: #d6d2d2;
+        position: relative;
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding: 0 5px 0 5px;
+        margin: 10px auto 15px auto;
+    }
+
+    .company-logo-wrapper {
+   position: absolute;
+    top: -10px;
+    z-index: 2;
+    padding: 0 18px;
+    background: white;
+    left: 42%;
+}
+
+    .company-wrapper {
+        display: flex;
+        padding: 0 5px 0 5px;
+    }
+
+ .company-logo {
+    padding: 4px 2px 7px 2px;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 0.0;
+    margin-right: 10px;
+    background: black;
+}
+.logo-wrapper {
+    position: absolute;
+    top: -15px;
+    z-index: 2;
+    padding: 5px;
+    background: white;
+    font-weight: 700;
+    left: 42%;
+}
+.job-logo{
+    display: inline-block;
+        line-height: 0.0;
+        margin-right: 10px;
+}
+.job-logo + span{
+    margin-bottom: 5px;
+}
+    .job-logo img {
+    top: 5px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+    .company-type {
+        flex-basis: 75%;
+    }
+
+    p.error {
+        border: 1px solid #ca9090;
+        margin-top: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        text-align: center;
+        color: #e43e3e;
+    }
+   .company-wrapper h4 {
+        flex-basis: 5%;
+    margin-top: 30px;
+    text-align: center;
+    }
+    .company-wrapper button.ui.primary.button{
+        margin-top: 21px;
+        margin-bottom: 8px;
+        flex-basis: 25%;
+        text-align: center;
+    }
+    .job {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .job  button.ui.primary.button{
+margin-top: 10px;
+margin-left: 5px;
+    }
+.job .logo-wrapper{
+    left:43.5%;
+}
+    .layer1 {
+        display: flex;
+        margin-top: 10px;
+    }
+.layer1 .input,
+    .layer2 .input {
+        
+        width: 100%;
+    }
+    .layer1 input,
+    .layer2 input {
+        display: block;
+        width: 100%;
+    }
+
+    .layer2 {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .job-title,
+    .location,
+    .remote-type,
+    .job-type,
+    .salary,
+    .experience,
+    .apply,
+    .tags {
+        padding: 0 5px 0 5px;
+    }
+
+    .job-title {
+        flex-basis: 31.25%;
+    }
+
+    .location {
+        flex-basis: 31.25%;
+    }
+
+    .remote-type {
+        flex-basis: 18.75%;
+    }
+
+   .layer1 .job-type {
+        flex-basis: 18.75%;
+        color:black;
+        text-align: left;
+    }
+
+    .salary {
+        flex-basis: 25%;
+    }
+
+    .experience {
+        flex-basis: 25%;
+    }
+
+    .apply {
+        flex-basis: 50%;
+    }
+
+    .tags {
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+
+    .tags>input {
+        width: 100%;
+    }
+
+    .description {
+        margin-top: 15px;
+padding: 0 5px;
+    }
+    .create-company-wrapper{
+display:flex;
+margin-bottom: 15px;
+    }
+    .create-company-wrapper .input{
+        width: 100%;
+    }
+    .create-company-wrapper .company-name{
+flex-basis: 37.5%;
+padding: 0 5px;
+    }
+    .website{
+flex-basis: 37.5%;
+padding: 0 5px;
+    }
+    .company-logo-url{
+flex-basis: 25%;
+padding: 0 5px;
+    }
+    .short-description{
+        padding: 0 5px;
+    }
+   .company .ui.button {
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.geosuggest {
+    width: 100%;
+}
+input.geosuggest__input {
+    margin: 0;
+    padding: 10px;
+}
+.advertise-wrapper {
+        margin: 100px 10px 25px 10px;
+        text-align: center;
+    }
+.icon-briefcase{
+    padding-bottom: -20px;
+}
+.icon-briefcase > i.black.briefcase.icon {
+    font-size: 8em;
+}
+    .advertise-wrapper p {
+        padding-bottom: 20px;
+    }
+@media screen and (max-width: 1187px) and (min-width: 992px){
+  .post-job-form{
+    max-width: 933px;
+  }
+}
+
+@media screen and (max-width: 768px){
+    .profile-wrapper{
+        width: 94%;
+    }
+    .post-job-form{
+    max-width: 100%;
+  }
+  .company-wrapper {
+      flex-direction: column;
+  }
+  
+  .create-company-wrapper{
+flex-direction: column;
+  }
+  .layer1,.layer2{
+      flex-direction: column;
+  }
+}

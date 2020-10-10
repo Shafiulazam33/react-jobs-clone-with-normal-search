@@ -1,0 +1,28 @@
+.footer-wrapper{
+background-color: black;
+}
+.footer{
+    display: flex;
+    color: white;
+    width:1127px;
+    margin: auto;
+}
+.footer .ui.button{
+    margin-top: 0;
+}
+.contact,.subscribe{
+    padding: 20px;
+    border-right: 1px dotted snow;
+}
+.subscribe .ui.button{
+margin-left: 5px;
+height: 39px;
+}
+.ui.twitter.button {
+    width: 130px;
+}
+@media screen and (max-width: 768px){
+  .footer{
+      flex-direction: column;
+  }
+}

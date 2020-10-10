@@ -1,0 +1,13 @@
+.advertise-wrapper {
+        margin: 100px 10px 25px 10px;
+        text-align: center;
+    }
+.icon-briefcase{
+    padding-bottom: -20px;
+}
+.icon-briefcase > i.black.briefcase.icon {
+    font-size: 8em;
+}
+    .advertise-wrapper p {
+        padding-bottom: 20px;
+    }

@@ -1,0 +1,167 @@
+.dashboard-wrapper {
+    display: flex;
+    background: #eceff4;
+}
+
+.side-left {
+    margin-right: 20px;
+    background: white;
+    min-width: 225px;
+}
+.dashboard-menu{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    display: none;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.dashboard-menu p{
+    margin: 0;
+}
+.side-left a {
+    color: #8d9498;
+    display: block;
+    padding: 10px 5px;
+}
+
+.side-left a:hover {
+    background-color: #c7ccd0;
+}
+
+.side-left ul {
+    margin: 10px;
+}
+
+.side-left ul li {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+img.dashboard-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.side-right {
+    background: white;
+    flex-grow: 1;
+    padding: 15px;
+    overflow-x: scroll;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table tr th:first-child {
+    border-top-left-radius: 5px;
+}
+
+table tr th:last-child {
+    border-top-right-radius: 5px;
+}
+
+th,
+td {
+    font-size: 17px;
+
+    border: 1px solid #dee1e6;
+    padding: 12px 10px;
+    text-align: left;
+}
+
+.off-button {
+    width: 100%;
+    height: 35px;
+    background: #65b4ec;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border: 1px solid #dee1e6;
+}
+
+.pagination {
+    display: inline-block;
+    padding: 6px 12px;
+    border-top: 1px solid #dee1e6;
+    border-right: 1px solid #dee1e6;
+    border-bottom: 1px solid #dee1e6;
+    color: blue;
+}
+
+.pagination-input {
+    outline: none;
+    border: 2px solid #dee1e6;
+    padding-left: 5px;
+    border-radius: 5px;
+    width: 50px;
+    height: 35px;
+    margin: 0 10px;
+}
+
+.pagination:hover {
+    background-color: #dee1e6;
+
+}
+
+.pag-arrow-left {
+    padding: 6px 12px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-left: 1px solid #dee1e6;
+    font-size: 14px;
+}
+
+.pag-arrow-right {
+    padding: 6px 12px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 14px;
+
+}
+
+.blue {
+    background-color: #006DF0;
+    color: white;
+}
+
+.blue:hover {
+    background-color: #006DF0;
+}
+
+@media only screen and (max-width: 992px) {
+    .side-left {
+        margin-right: 0;
+    }
+    .dashboard-wrapper {
+        display: flex;
+        flex-direction: column;
+        background: #eceff4;
+    }
+
+    .dashboard-menu{
+        display: flex;
+    }
+    .display-none{
+    display: none;
+    }
+    .white{
+        color: white;
+    }
+
+}

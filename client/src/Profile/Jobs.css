@@ -1,0 +1,121 @@
+.jobs-list{
+    flex-basis: 75%;
+}
+.company-post-wrapper{
+padding: 15px;
+border: 1px solid #d6d2d2;
+border-radius: 3px;
+margin-bottom: 15px;
+width: 100%;
+position: relative;
+}
+.company-post-wrapper:hover{
+    background-color:rgba(0,0,0,0.1)
+}
+.company-post{
+    display: flex;
+} 
+.company-post p{
+    margin: 0;
+} 
+.company-post >img{
+    width: 150px;
+    height: 150px;
+} 
+.job-details{
+    margin-left: 20px;
+    flex-grow: 1;
+} 
+.job-position-type{
+    display: flex;
+    justify-content: space-between;
+} 
+.job-position-type p{
+    margin: 0;
+}
+.job-position {
+    font-weight: 700;
+    padding-right: 10px;
+    font-size: 25px;
+}
+.job-slary{
+    color:green;
+} 
+.job-type{
+    color: brown;
+    text-align: right;
+    text-transform: capitalize;
+}
+.company-name-location{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+    color: darkcyan;
+} 
+.company-name{
+    padding: 0;
+}
+ .company-location{} 
+ .remote{
+     color:orange;
+     padding-left: 10px;
+     
+ } 
+ .company-post-time{
+    margin: 7px;
+ } 
+ p.line1 {
+    height: 3px;
+    background: #d6d2d2;
+    margin: 15px 0 10px 0;
+}
+ .job-tags{
+     list-style: none;
+     text-align: right;
+ }
+ .job-tags li{
+     display: inline-block;
+     margin-left: 10px;
+ }
+ p.line2 {
+    height: 3px;
+    background: #d6d2d2;
+    margin: 10px 0 8px 0;
+}
+ .listed-edit-promote{
+     display: flex;
+     justify-content: flex-end;
+
+ }
+ .listed-edit-promote button.ui.primary.button{
+     margin: 0 0 0 7px;
+ }
+ .listed-edit-promote .ui.fitted.toggle.checkbox{
+     margin-right: 10px;
+ }
+ .listed{
+     padding: 6px;
+     border: 1px solid #d6d2d2;
+     display: flex;
+     border-radius: 5px;
+ }
+ .listed-edit-promote a{
+     color: white;
+ }
+ @media screen and (max-width: 1187px) and (min-width: 992px){
+  .header {
+    max-width: 933px;
+  }
+}
+@media screen and (max-width: 992px) and  (min-width: 768px){
+  .jobs-list {
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 768px){
+  .jobs-list {
+    order: 2;
+    width: 96%;
+    margin: auto;
+}
+}

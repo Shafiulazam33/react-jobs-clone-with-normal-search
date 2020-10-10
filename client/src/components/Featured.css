@@ -1,0 +1,22 @@
+.featured-wrapper{
+flex-grow: 1;
+}
+.featured{
+border: 1px solid #dee1e6;
+border-radius: 5px;
+padding: 15px;
+margin:20px auto;
+max-width: 600px;
+text-align: center;
+}
+.featured h1{
+    text-align: center;
+}
+.featured-ul{
+list-style-type: square;
+padding-left: 30px;
+text-align: left;
+}
+.ui.labeled.button:not(.icon){
+    margin: 20px;
+}

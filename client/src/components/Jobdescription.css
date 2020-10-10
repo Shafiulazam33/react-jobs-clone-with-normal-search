@@ -1,0 +1,60 @@
+.job-description{
+}
+.job-description-layer1{
+    text-align: center;
+    padding: 15px;
+}
+p.type-salary {
+    font-size: 17px;
+    font-weight: 600;
+    color: #26b3b3;
+}
+.job-slary{
+    margin-left: 10px;
+}
+p.location-remote {
+    font-size: 15px;
+    color: #a5a563;
+    font-weight: 500;
+}
+.remote{}
+p.post-time {
+    font-weight: 500;
+    font-size: 15px;
+}
+.ul{}
+.job-description-tags li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.job-description-layer2 {
+    padding: 20px;
+    background: #f9f6f9;
+}
+.long-description{
+    width: 1127px;
+    margin: auto;
+}
+.job-description-layer3 {
+    background: #e9f3f3;
+}
+.logo-website{
+    width: 1127px;
+    margin: auto;
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+.job-description-image{
+margin-right: 25px;
+}
+.logo-website p{
+    padding: 0;
+    margin: 0;
+}
+.job-description-image{
+    background: inherit;
+}
+.logo-website img{
+    width: 80px;
+    height: 80px;
+}
