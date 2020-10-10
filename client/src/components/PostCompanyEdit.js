@@ -33,7 +33,7 @@ export default function Postjobs() {
     }
     const submitHandler = (event) => {
         event.preventDefault();
-        Axios.put('http://localhost:4000/api/profile/update-company', { _id, ...state })
+        Axios.put('/api/profile/update-company', { _id, ...state })
             .then((res) => {
                 history.push('/profile/companies')
             })
