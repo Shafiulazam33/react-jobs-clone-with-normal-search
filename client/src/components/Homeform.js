@@ -57,7 +57,7 @@ export default function Homeform() {
     if (state.searchword) {
       clearTimeout(timeout);
       timeout = setTimeout(function () {
-        Axios.post('/api/job/jobs2', { searchword: state.searchword })
+        Axios.post('/api/job/jobs', { searchword: state.searchword })
           .then(res => {
             setData(res.data.jobs)
           })
