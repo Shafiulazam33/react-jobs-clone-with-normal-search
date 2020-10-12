@@ -1,9 +1,9 @@
 const router = require('express').Router()
 const authenticate = require('../authenticate')
 
-const { check, findJobs2, findCompanyToEdit, findJobToEdit, findCompanies, postJobWithCompany, postJobWithExistedCompany, payforfeature, findFeaturedPost, featuredPostClose } = require('../controllers/jobController')
+const { check, findJobs, findCompanyToEdit, findJobToEdit, findCompanies, postJobWithCompany, postJobWithExistedCompany, payforfeature, findFeaturedPost, featuredPostClose } = require('../controllers/jobController')
 
-router.post('/jobs2', findJobs2)
+router.post('/jobs', findJobs)
 router.post('/check', check)
 router.put('/find-job-edit', authenticate, findJobToEdit)
 router.put('/find-company-edit', authenticate, findCompanyToEdit)
