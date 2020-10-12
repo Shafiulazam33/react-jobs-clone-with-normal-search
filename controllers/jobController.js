@@ -24,7 +24,7 @@ module.exports = {
             })
             .catch(error => serverError(res, error))
     },
-    findJobs2(req, res) {
+    findJobs(req, res) {
         let { searchword } = req.body
         console.log(searchword)
         Jobpost.find({ "location": { $regex: searchword, $options: 'i' } })
